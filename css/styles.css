@@ -113,10 +113,16 @@ header {
 }
 
 
-/* Work Experience
+/* Certificates 
 ------------------------------------*/
 .certificates {
   background: #2a9d8f;
+}
+
+/* Skills
+------------------------------------*/
+.skills {
+  background: #b5179e;
 }
 
 
