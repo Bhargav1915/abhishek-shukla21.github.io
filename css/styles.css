@@ -124,7 +124,9 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  /* background: #A1C6D7; */
+  background-image: url("/images/large-triangles.svg");
+  color: #F7FFF7;
 }
 
 
