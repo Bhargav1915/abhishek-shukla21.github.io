@@ -208,4 +208,50 @@ footer {
     padding: 5px;
   }
 }
--------------------------------------------
+
+
+/* social media */
+.icons{
+  position: fixed;
+  top: 30%;
+  left: 0%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.icons a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'Oswalad', sans-serif;
+  margin: 2px;
+  text-align: right;
+}
+.icons a i {
+  margin-left: 20px;
+}
+.linkedin {
+  background-color: #0e76a8 ;
+  color: white;
+}
+.gmail {
+  background-color: #BB001B ;
+  color: white;
+}
+.twitter {
+  background-color: #53c5ff ;
+  color: white;
+}
+.youtube {
+  background-color: #fa0910 ;
+  color: white;
+}
+.github {
+  background-color: #fa0910 ;
+  color: white;
+}
+.dev {
+  background-color: #fa0910 ;
+  color: white;
+}
