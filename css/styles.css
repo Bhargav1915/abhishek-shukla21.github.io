@@ -227,9 +227,45 @@ footer {
   font-family: 'Oswalad', sans-serif;
   margin: 2px;
   text-align: right;
+  border-radius: 0px 50px 50px 0px ;
+  
+  transform: translate(-146px, 0px);
+  transition: all 0.75s;
+}
+.icons a:hover{
+  transform: translate(0px, 0px);
 }
 .icons a i {
-  margin-left: 20px;
+  margin-left: 25px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.icons a:hover i {
+  transform: rotate(360deg);
+}
+.icons a i.fa-linkedin{
+  color: #0e76a8;
+}
+.icons a i.fa-twitter{
+  color: #53c5ff;
+}
+.icons a i.fa-envelope{
+  color: #BB001B;
+}
+.icons a i.fa-youtube{
+  color: #fa0910;
+}
+.icons a i.fa-github{
+  color: black;
+}
+.icons a i.fa-dev{
+  color: black;
 }
 .linkedin {
   background-color: #0e76a8 ;
@@ -248,10 +284,10 @@ footer {
   color: white;
 }
 .github {
-  background-color: #fa0910 ;
+  background-color: black ;
   color: white;
 }
 .dev {
-  background-color: #fa0910 ;
+  background-color: black ;
   color: white;
 }
