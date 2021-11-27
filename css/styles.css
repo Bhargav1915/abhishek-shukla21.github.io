@@ -229,7 +229,7 @@ footer {
   text-align: left;
   border-radius: 50px 0px 0px 50px ;
   
-  transform: translate(146px, 0px);
+  transform: translate(146px, 0\px);
   transition: all 0.75s;
 }
 .icons a:hover{
